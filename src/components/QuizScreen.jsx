@@ -245,7 +245,7 @@ export default function QuizScreen({ onQuit, onFinish }) {
        <button
   onClick={() => {
     const tweetText = encodeURIComponent("I just got Berryfied on the Boundless quiz! 🍓");
-    const shareUrl = encodeURIComponent(`https://boundless-quiz-blush.app/share?score=${score}`);
+    const shareUrl = encodeURIComponent("https://boundless-quiz-blush.vercel.app/share.html");
     const tweetLink = `https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`;
     window.open(tweetLink, "_blank");
   }}
