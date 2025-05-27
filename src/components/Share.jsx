@@ -17,7 +17,7 @@ export default function Share() {
         />
         <meta
           name="twitter:image"
-          content="https://your-site.vercel.app/berryfied-badge.png"
+          content="https://boundless-quiz-blush.vercel.app/berryfied-badge.png"
         />
       </Helmet>
 
