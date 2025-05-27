@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'ReplicaPro';
+  src: url('/fonts/ReplicaProBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReplicaPro';
+  src: url('/fonts/ReplicaProRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReplicaPro';
+  src: url('/fonts/ReplicaProLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+@import "tailwindcss";
+@import "tailwindcss/utilities";
