@@ -1,12 +1,36 @@
-# React + Vite
+# 🍓 Boundless Berry Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive quiz web app built for Boundless' **Proof of Thought** campaign to earn the `@proven berry` role on Discord. It challenges users with fun and insightful questions about the Boundless protocol.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 10-question multiple choice quiz
+- 10-second timer per question with timeout handling
+- Immediate feedback with color-coded answers
+- Score tracker and progress bar with animated berry
+- "Quit Quiz" confirmation modal
+- Final score summary with badge
+- Social sharing on X (Twitter)
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[👉 Try the Quiz Now](https://boundless-quiz-blush.vercel.app/)
+
+## 🛠 Tech Stack
+
+- **React** with Vite
+- **Tailwind CSS v4**
+- Deployed via **Vercel**
+
+## 🧠 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/boundless-quiz.git
+cd boundless-quiz
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
