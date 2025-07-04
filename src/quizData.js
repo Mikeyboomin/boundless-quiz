@@ -1,104 +1,104 @@
 // quizData.js
 const quizData = [
   {
-    question: "What core problem does Boundless aim to solve in blockchain systems?",
+    question: "How much $PROVE do you need to run your own prover node?",
     options: [
-      "Slow transaction finality",
-      "Computational scarcity and high on-chain costs",
-      "Lack of decentralization",
-      "Limited token interoperability"
+      "200 $PROVE",
+      "1000 $PROVE",
+      "3000 $PROVE",
+      "500 $PROVE"
     ],
-    answer: "Computational scarcity and high on-chain costs"
+    answer: "1000 $PROVE"
   },
   {
-    question: "Which technology enables Boundless to perform computation off-chain while preserving trust?",
+    question: "Which of the following DEXs implement the CLOBs on Blobs model using SP1 zkVM and celestia for DA?",
     options: [
-      "Layer 2 Rollups",
-      "Hash Time-Lock Contracts",
-      "Zero-Knowledge Proofs (ZKPs)",
-      "Proof-of-Stake"
+      "Hyperliquid",
+      "dYdX",
+      "Hibachi",
+      "Lighter"
     ],
-    answer: "Zero-Knowledge Proofs (ZKPs)"
+    answer: "Hibachi"
   },
   {
-    question: "What innovation did RISC Zero introduce in 2022?",
+    question: "Which protocol recently launched a V4 upgrade that enables faster crosschain bridging through a universal architecture powered by intents and SP1 ZK proofs?",
     options: [
-      "The zkVM for general-purpose ZK computation using RISC-V",
-      "Bulletproofs",
-      "The CairoVM",
-      "The first zkEVM"
+      "Across",
+      "LayerZero",
+      "Axelar",
+      "Wormhole"
     ],
-    answer: "The zkVM for general-purpose ZK computation using RISC-V"
+    answer: "Across"
   },
   {
-    question: "How does Boundless turn compute into a tradeable commodity?",
+    question: "What is the role of $PROVE in the prover network?",
     options: [
-      "By introducing staking incentives",
-      "Through auction-based gas pricing",
-      "By financializing verifiable compute via proof of verifiable work",
-      "By wrapping compute in ERC20 tokens"
+      "It's used for governance only",
+      "It's used for incentives, and staking for security",
+      "It's a stablecoin for fees",
+      "It's used for NFT minting for access"
     ],
-    answer: "By financializing verifiable compute via proof of verifiable work"
+    answer: "It's used for incentives, and staking for security"
   },
   {
-    question: "Which of the following is a benefit Boundless offers to developers?",
+    question: "How many povers can you stake to at a time in stage 2.5?",
     options: [
-      "Using existing tools and languages like Rust and Solidity",
-      "Avoiding gas entirely",
-      "Bridge-based communication",
-      "Proprietary programming languages"
+      "1",
+      "4",
+      "2",
+      "6"
     ],
-    answer: "Using existing tools and languages like Rust and Solidity"
+    answer: "1"
   },
   {
-    question: "What makes ZK-powered compute well-suited for trustless systems?",
+    question: "What happens if a prover fails to deliver a valid proof after staking $PROVE?",
     options: [
-      "Because it's faster than proof-of-stake",
-      "Because it's regulated by smart contracts",
-      "Because all compute is manually verified",
-      "Because results are objectively provable under cryptographic assumptions"
+      "They receive a refund of their stake",
+      "They are demoted to a lower priority",
+      "Their stake is redistributed to users",
+      "Their stake is slashed as a penalty"
     ],
-    answer: "Because results are objectively provable under cryptographic assumptions"
+    answer: "Their stake is slashed as a penalty"
   },
   {
-    question: "What did the release of Zeth demonstrate?",
+    question: "What is a potential benefit of the competitive bidding system using $PROVE in Stage 2.5?",
     options: [
-      "zkEVMs require years to build",
-      "A small team can build a zkEVM in under a month",
-      "Trusted setups are necessary",
-      "Ethereum can't support zero-knowledge proofs"
+      "Lower transaction fees for users",
+      "Lower proof generation costs",
+      "increased network scalability",
+      "Increased decentralization of provers"
     ],
-    answer: "A small team can build a zkEVM in under a month"
+    answer: "Lower proof generation costs"
   },
   {
-    question: "Which of the following phrases is part of Boundless lingo?",
+    question: "What percentage of prover rewards go to stakers in Stage 2.5?",
     options: [
-      "Don’t trust, verify",
-      "HODL the chain",
-      "Code is law",
-      "Berryfiable compute"
+      "8%",
+      "16%",
+      "10%",
+      "4%"
     ],
-    answer: "Berryfiable compute"
+    answer: "4%"
   },
   {
-    question: "What kind of marketplace does Boundless provide?",
+    question: "What is the purpose of the Sybil resistance mechanism in Stage 2.5?",
     options: [
-      "A permissionless compute marketplace",
-      "A smart contract auditing service",
-      "A DEX for swapping tokens",
-      "A frontend hosting service"
+      "To prevent malicious actors from controlling multiple prover identities",
+      "To increase transaction speeds",
+      "To increase the cost of $PROVE tokens",
+      "To simplify proof verification"
     ],
-    answer: "A permissionless compute marketplace"
+    answer: "To prevent malicious actors from controlling multiple prover identities"
   },
   {
-    question: "What long-term impact does Boundless aim for?",
+    question: "How does the $PROVE token enhance the scalability of the Succinct Prover Network in Stage 2.5?",
     options: [
-      "Creating a fragmented multi-chain future",
-      "Replacing all L1 blockchains",
-      "Enabling web2-level sophistication in blockchain apps",
-      "Centralizing compute services"
+      "By increasing the number of proof requests",
+      "By increasing the need for zero-knowledge proofs",
+      "By incentivizing more provers to join the network",
+      "By centralizing proof generation"
     ],
-    answer: "Enabling web2-level sophistication in blockchain apps"
+    answer: "By incentivizing more provers to join the network"
   }
 ];
 

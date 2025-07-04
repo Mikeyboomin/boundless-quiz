@@ -23,13 +23,6 @@ export default function ResultsScreen({ score, total, onRestart }) {
         You scored {score} out of {total}
       </p>
 
-      {/* Placeholder badge image */}
-      <img
-        src="https://via.placeholder.com/200x200.png?text=Berryfied+Badge"
-        alt="Berryfied Badge"
-        className="mx-auto rounded-xl mt-4"
-      />
-
       <div className="flex flex-col gap-4 mt-6">
         <button
           onClick={onRestart}

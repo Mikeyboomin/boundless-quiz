@@ -24,7 +24,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-rose-50 text-gray-800 p-4">
+    <div className="min-h-screen w-full bg-black text-white overflow-hidden">
       {mode === 'home' && <HomeScreen onStart={handleStartQuiz} />}
       {mode === 'quiz' && (
         <QuizScreen
